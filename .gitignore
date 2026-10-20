@@ -1,0 +1,19 @@
+# 模型配置（含真实 Key，切勿提交）
+config.properties
+
+# 运行时产物
+events/*.jsonl
+events/
+wiki/
+plugins/
+
+# 运行时自动生成的沙箱目录（保留工程内预置的 step25 工作区文件）
+sandbox/*
+!sandbox/step25/
+!sandbox/step25/hello.txt
+
+# Go 构建产物
+toyagent
+ToyAgent-Go
+*.test
+*.out
